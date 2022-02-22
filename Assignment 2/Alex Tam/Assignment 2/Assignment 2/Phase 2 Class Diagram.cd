@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Assignment_2.Customer">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAACBAAIAkAAAAAAIAAAIAAAAAAAAICgAAAAA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="password" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Assignment_2.Item">
+    <Position X="2.5" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAJQAAgAAAIAAAAAAAAQAEAAIAAAACAAiAAAo=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="owner" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Assignment_2.Product">
+    <Position X="2.5" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAEEAAAAAAAAAQAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_2.Password">
+    <Position X="7.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAIAAAQAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACIA=</HashCode>
+      <FileName>Password.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_2.ProductListing">
+    <Position X="5.25" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAgBhBCAAAABAABgAAAIAAAAAEBABIAEARAAAAAI=</HashCode>
+      <FileName>ProductListing.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="functionMenu" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="customers" />
+      <Field Name="items" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Assignment_2.UserInterface">
+    <Position X="9.75" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAYgAACAAgAAAAAAAAAAAAAgAIAAAAAA=</HashCode>
+      <FileName>UserInterface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_2.Menu">
+    <Position X="8.5" Y="5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Assignment_2.Menu.MenuItem">
+        <TypeIdentifier>
+          <NewMemberFileName>UserInterface.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserInterface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
